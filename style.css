@@ -1,0 +1,171 @@
+body{
+    margin:0;
+    background-color: hsl(148, 38%, 91%);
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+.Contact{
+    width: 450px;
+    height: 520px;
+    background-color:white ;
+    margin:50px auto;
+    border-radius: 10px;
+}
+h2{
+    font-weight:800;
+    color: rgb(105, 103, 103); 
+}
+form{
+    margin: 20px;
+    padding-top: 4px;
+    font-weight:500;
+    color: gray;
+}
+#submit{
+    width:100%;
+    height: 35px;
+    background-color: hsl(169, 88%, 29%);
+    border:none;
+    border-radius: 6px;
+    color: white;
+}
+#submit:hover{
+    background-color: hsl(168, 91%, 9%);
+}
+sup{
+    color: hsl(169, 82%, 27%);
+}
+.lname label{ 
+    position: relative;
+    bottom:57px;
+    left: 200px;
+}
+.lname input{
+    position: relative;
+    width:47%;
+    bottom: 56px;
+    left: 200px;
+    height:30px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    
+}
+.email label{
+   bottom: 45px;
+   position: relative;
+}
+.email input{
+    bottom: 40px;
+    position: relative;
+    width:97%;
+    height:30px;
+    border-radius: 6px;
+    border: 1px solid gray;
+   
+ }
+ .fname input{
+    position: relative;
+    height:30px;
+    border-radius: 6px;
+    border: 1px solid gray;
+ }
+ .query{
+    bottom: 35px;
+   position: relative;
+ }
+ .request label{
+   position: relative;
+   bottom: 40px;
+   left: 220px;
+ }
+ .request input{
+    position: relative;
+    bottom: 40px;
+    left: 220px;
+    accent-color: hsl(169, 82%, 27%);
+  }
+  .general {
+    position: relative;
+    width:48%;
+    height:30px;
+    border:1px solid; 
+    bottom:20px;
+    text-align: center;
+    padding-top: 4px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    accent-color: hsl(169, 82%, 27%);
+  }
+  .general:hover{
+    background-color: hsl(148, 38%, 91%);
+    border:1px solid hsl(169, 82%, 27%);
+  }
+  .general:active{
+    background-color: hsl(148, 38%, 91%);
+  }
+  .request {
+    position: relative;
+    left:210px;
+    width:47%;
+    height:30px;
+    border:2px solid; 
+    bottom:57px;
+    padding-top: 4px;
+    border: 1px solid gray;
+    border-radius: 7px;
+  }
+  .request:hover{
+    background-color: hsl(148, 38%, 91%);
+    border:1px solid hsl(169, 82%, 27%);
+  }
+  .request label{
+    left: 20px;
+    top:3px;
+  }
+  .request input{
+    left: 20px;
+    top:3px;
+  }
+  .message label{
+    position: relative;
+    bottom:50px;
+  }
+  .message textarea{
+    position: relative;
+    bottom:45px;
+    width:97%;
+    height:60px;
+    border: 1px solid gray;
+    border-radius: 7px;
+  }
+  .checking label{
+    position: relative;
+    bottom:30px;
+  }
+  .checking input{
+    position: relative;
+    bottom:30px;
+    accent-color: hsl(169, 82%, 27%);
+  }
+input:hover{
+    border:1px solid hsl(169, 82%, 27%);
+  }
+textarea:hover{
+    border:1px solid hsl(169, 82%, 27%);
+}
+input{
+    cursor: pointer;
+}
+textarea{
+    cursor: pointer;
+}
+input:focus{
+  outline-color:hsl(169, 82%, 27%);
+}
+textarea:focus{
+  outline-color:hsl(169, 82%, 27%);
+}
+
+
+ 
